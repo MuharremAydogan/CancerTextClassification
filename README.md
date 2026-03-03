@@ -96,7 +96,7 @@ encoder_path: Sınıf etiketleri için encoder
 
 tfidf_path: Metni vektörleştiren TF-IDF aracı
 
-3️⃣ Main.py ile artifacts dosyaları ve model experimentleri çalıştırın
+3️⃣ Main.py ile veri analizi, model eğitim, model experiment ve artifacts yönetimini gerçekleştirin
 
 ```bash
 python main.py
