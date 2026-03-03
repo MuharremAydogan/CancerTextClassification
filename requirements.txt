@@ -1,0 +1,9 @@
+kagglehub
+numpy
+pandas
+pathlib
+sklearn
+nltk
+pickle
+mlflow
+seaborn

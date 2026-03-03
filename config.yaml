@@ -1,0 +1,27 @@
+data_ingestion:
+  kaggle_dataset: falgunipatel19/biomedical-text-publication-classification
+  output_data_path: artifacts/data/hamdata.csv
+
+data_transformation:
+  test_size: 0.2
+  train_output_path: artifacts/data/train.csv
+  test_output_path: artifacts/data/test.csv
+  pickle_encoder_obj_path: artifacts/obj/labelencoder.pkl
+  pickle_vectorizer_obj_path: artifacts/obj/tfidf.pkl
+
+model:
+  epoch: 15
+  num_classes: 3
+  save_path: artifacts/kerasmodel/model.keras
+  
+
+
+model_eval:
+  tracking_uri: http://localhost:5000
+  plot_save_path: artifacts/plots/confusion_matrix.png
+  num_classes: 3
+
+model_pred:
+  model_path: artifacts/kerasmodel/model.keras
+  encoder_path: artifacts/obj/labelencoder.pkl
+  tfidf_path: artifacts/obj/tfidf.pkl  
