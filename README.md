@@ -96,6 +96,14 @@ encoder_path: Sınıf etiketleri için encoder
 
 tfidf_path: Metni vektörleştiren TF-IDF aracı
 
+3️⃣ Main.py ile artifacts dosyaları ve model experimentleri çalıştırın
+
+```bash
+python main.py
+```
+
+Böylece artifacts dosyaları oluşturulur ve api kullanımına geçebilirsiniz
+
 🧪 API Kullanımı
 
 📌 API’yi çalıştırmak:
